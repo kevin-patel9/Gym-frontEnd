@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(bgImage.jpg) no-repeat;
+    background-size: 100% 130%;
+}
+
+.mainPageContainer{
+    margin: 9rem auto;
+    width: 100%;
+}
+
+.mainPageContainer>h1{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 8.4rem;
+}
+
+h1{
+    background: linear-gradient(rgb(105, 158, 255), rgb(76, 0, 252));
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-stroke-width: 1.4px;
+    -webkit-text-stroke-color: rgb(98, 0, 128);
+}
+
+.mainPageContainer > p{
+    text-align: center;
+    color: rgb(247, 255, 140);
+    font-weight: 700;
+    font-size: 2rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media screen and (max-width: 760px) {
+    .mainPageContainer {
+        margin-top: 12rem;
+    }
+
+
+    .mainPageContainer>h1{
+        width: 100%;
+        font-size: 4rem;
+    }
+
+    .mainPageContainer > p{
+        font-size: 1rem;
+    }
+
+    body{
+        background-size: inherit;
+    }
+}

@@ -1,0 +1,59 @@
+.register{
+    margin: auto;
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .registerContain {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .registerContain>h2{
+    width: 14rem;
+    text-align: center;
+    font-weight: 700;
+    text-decoration: underline;
+    color: #ffffff;
+    margin-bottom: 2rem;
+  }
+  
+  .registerInput{
+    height: 46px;
+    padding: 14px;
+    border: none;
+    outline: none;
+    border-radius: .4rem;
+  }
+  
+  #registerBtn {
+    border: none;
+    padding: 10px 20px;
+    background-color: #9e009e;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  #registerBtn:disabled{
+    background-color: #cc00ff8c;
+    cursor: not-allowed;
+  }
+
+  .passwordInput{
+    padding-left: 1rem;
+    height: 3rem;
+    border: none;
+    outline: none;
+    border-radius: .4rem;
+  }
+
+  .loginPage>p{
+    margin-top: .4rem;
+    color: rgb(255, 255, 255);
+  }

@@ -1,0 +1,28 @@
+.pageContain{
+        height: 70vh;
+}
+
+
+.page {
+    margin-top: 6.6rem;
+    display: grid;
+    gap: 1rem;
+    justify-items: center;
+    justify-content: center;
+}
+
+.page>p, .page>h2{
+    /* margin-bottom: 1rem; */
+    color: rgb(255, 255, 255);
+}
+
+.homeBtn{
+    cursor: pointer;
+    background-color: rgb(151, 0, 131);
+    padding: 0 2rem;
+    border-radius: .4rem;
+    border: none;
+    height: 2.4rem;
+    font-size: 1.2rem;
+    color: white;
+}

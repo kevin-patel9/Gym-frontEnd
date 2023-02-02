@@ -1,0 +1,127 @@
+.ownerDetailContain{
+    width: 60%;
+    margin: 3rem auto;
+    position: relative;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.6rem;
+}
+
+.ownerContain{
+    background-color: rgb(255, 195, 31);
+    height: max-content;
+    width: 20rem;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.ownerUniqueCode{
+    display: grid;
+    gap: .8rem;
+    align-items: center;
+    justify-items: center;
+    grid-template-rows: 4.6rem;
+}
+
+.ownerUniqueCode>h5{
+    color: white;
+    margin-top: 1rem;
+    font-size: 1.6rem;
+}
+
+.ownerUniqueCode > h6 {
+    text-align: center;
+    width: 80%;
+    padding-top: .8rem;
+    border-top: 1px solid rgb(88, 88, 88);
+    color: white;
+    margin-top: 1rem;
+    font-size: 1.6rem;
+}
+
+.ownerUniqueCode>h4{
+    background-color: white;
+    color: rgb(84, 0, 92);
+    padding: .4rem 3rem;
+    border-radius: .8rem;
+    letter-spacing: .3rem;
+    font-weight: 700;
+}
+
+.btns{
+    color: white;
+    background-color: rgb(130, 0, 182);
+    padding: .6rem;
+    border: none;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.btns:hover{
+    background-color: rgb(98, 0, 143) ;
+}
+
+.ownerInput{
+    text-align: center;
+    border: none;
+    outline: none;
+    padding: .6rem 0;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.ownerImg{
+    position: absolute;
+    top: -2.6rem;
+    width: 4.6rem;
+    height: 5.2rem;
+    width: 5.2rem;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.qrCodeImg{
+    border-radius: 1rem;
+    width: 8rem;
+}
+
+@media screen and (max-width: 860px) {
+    .ownerDetailContain{
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Pagination Buttons */
+
+.paginationBtn{
+    margin-top: 2rem;
+    margin-right: .6rem ;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style-type: none;
+}
+
+.previousBtn, .nextBtn{
+    background-color: rgb(147, 0, 160) ;
+    color: white;
+    text-decoration: none;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: .4rem;
+    padding: .4rem;
+}
+
+.previousBtn:hover, .nextBtn:hover {
+    color: rgb(239, 187, 255);
+}
+
+.paginationActive{
+    padding: .2rem .4rem;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: .4rem;
+    background-color: white ;
+    color: rgb(0, 0, 0);
+}
